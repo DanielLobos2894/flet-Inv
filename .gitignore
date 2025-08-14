@@ -1,0 +1,20 @@
+# Ignorar carpeta de compilación
+build/
+
+# Ignorar APKs y binarios
+*.apk
+*.zip
+
+# Entornos virtuales de Python
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración local de IDEs
+.vscode/
+.idea/
