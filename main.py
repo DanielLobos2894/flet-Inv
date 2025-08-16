@@ -4,8 +4,9 @@ from typing import Optional
 import time
 import threading
 
-# La URL base de la API. Se usa 127.0.0.1 (localhost) para desarrollo local.
-API_BASE_URL = "http://127.0.0.1:8000"
+# La URL base de la API. Usa la IP de tu computadora en la red local
+# Reemplaza 192.168.100.15 con tu IP local si es diferente
+API_BASE_URL = "http://192.168.100.15:8000"
 
 
 def main(page: ft.Page):

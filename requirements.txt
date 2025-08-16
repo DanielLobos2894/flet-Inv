@@ -1,3 +1,11 @@
 flet
 fastapi
 uvicorn[standard]
+
+
+
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+mysql-connector-python
